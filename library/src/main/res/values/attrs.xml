@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RotateButton">
+        <attr name="bg" format="color"/>
+        <attr name="txt_color" format="color"/>
+        <attr name="ring_color" format="color"/>
+        <attr name="ring_wrap_color" format="color"/>
+        <attr name="scale_color" format="color"/>
+        <attr name="indicator_bg_1" format="color"/>
+        <attr name="indicator_bg_2" format="color"/>
+        <attr name="txt_size" format="dimension"/>
+        <attr name="unittxt_size" format="dimension"/>
+        <attr name="unit" format="string"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+</resources>
