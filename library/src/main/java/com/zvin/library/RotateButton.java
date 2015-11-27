@@ -58,7 +58,7 @@ public class RotateButton extends View {
 
     private int mAngle;
 
-    private static final int POINTER_LINE_LEN = 20;
+    private static int POINTER_LINE_LEN = 5;
     public RotateButton(Context context) {
         this(context, null);
     }
@@ -83,6 +83,7 @@ public class RotateButton extends View {
         DEFAULT_VALUE_TEXT_SIZE *= density;
         DEFAULT_UNIT_TEXT_SIZE *= density;
         DEFAULT_SIZE *= density;
+        POINTER_LINE_LEN *= density;
 
         mRadius = attributes.getDimensionPixelSize(R.styleable.RotateButton_radius, DEFAULT_SIZE);
         mBasePadding = 10;
